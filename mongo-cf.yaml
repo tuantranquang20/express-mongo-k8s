@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-express-cf
+data:
+  db_url: mongo-svc
+  port: '27017'
